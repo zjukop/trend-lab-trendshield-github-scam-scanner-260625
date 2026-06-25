@@ -1,0 +1,12 @@
+[project]
+name = "trendshield-github-scam-scanner"
+version = "0.1.0"
+description = "GitHub Trending is increasingly polluted by fake crypto tools, keygens, and keyword-stuffed malware bait. Build a lightweight ‘TrendShield’ scanner that gives every repo a transparent scam-risk score and a shareable report. It rides the current wave of suspicious trending repos while being clearly defensive, useful, and star-worthy."
+requires-python = ">=3.11"
+
+[project.scripts]
+trendshield-github-scam-scanner = "trendshield_github_scam_scanner.main:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
